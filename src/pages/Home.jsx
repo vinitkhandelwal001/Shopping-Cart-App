@@ -28,7 +28,7 @@ const Home = () => {
   },[])
 
   return (
-    // ab m sabhi data ko card bna dunga mtlb product wale component m 
+    
     <div>
       {
         loading ? <Spinner/> : 
