@@ -14,7 +14,7 @@ const Cart = () => {
 
   return (
     <div >
-      {/*  yha 2 option h ya to cart empty hogi ya non empty hogi */}
+     
       {
         cart.length > 0 ?
         (<div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-center">
