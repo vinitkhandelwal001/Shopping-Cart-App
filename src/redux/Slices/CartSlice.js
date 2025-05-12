@@ -9,7 +9,6 @@ export const CartSlice = createSlice({
             state.push(action.payload); 
         },
         remove:(state,action) => {
-         // is state k andar only vo hi wale item ko retain krna jo action input parameter k andar id aayi h uske equal na ho
             return state.filter((item) => item.id !== action.payload);
         },
    }
